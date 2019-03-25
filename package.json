@@ -1,5 +1,5 @@
 {
-  "name": "create-reactjs-component",
+  "name": "mattl-create-reactjs-component",
   "version": "1.0.7",
   "description": "A shortcut to create React.js component directories",
   "scripts": {
@@ -11,7 +11,7 @@
   "bin": {
     "create-reactjs-component": "./build.sh"
   },
-  "author": "Haldun Anil <info@haldunanil.com> (https://www.github.com/haldunanil)",
+  "author": "Haldun Anil, modified by Matthew Lancellotti",
   "license": "MIT",
   "repository": {
     "type": "git",
