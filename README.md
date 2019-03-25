@@ -1,4 +1,6 @@
-# create-reactjs-component
+# mareoraft-create-reactjs-component
+
+WARNING: THIS IS AN EXPERIMENTAL FORK OF https://github.com/haldunanil/create-reactjs-component AND YOU PROBABLY WANT THAT ONE INSTEAD.
 
 Generate one or multiple boilerplate components within `src`. 
 
@@ -13,7 +15,7 @@ Note: the scripts are bash scripts and may not run on Windows machines. If that 
 ## Install
 
 ```sh
-npm install -g create-reactjs-component
+npm install -g mareoraft-create-reactjs-component
 ```
 
 ## Example
@@ -132,7 +134,3 @@ describe('Test', () => {
   // Render / mount / integration tests begin here
 });
 ```
-
-## License
-
-MIT © Haldun Anil

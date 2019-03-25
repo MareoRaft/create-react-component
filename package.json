@@ -1,5 +1,5 @@
 {
-  "name": "mattl-create-reactjs-component",
+  "name": "mareoraft-create-reactjs-component",
   "version": "1.0.7",
   "description": "A shortcut to create React.js component directories",
   "scripts": {
@@ -11,14 +11,14 @@
   "bin": {
     "create-reactjs-component": "./build.sh"
   },
-  "author": "Haldun Anil, modified by Matthew Lancellotti",
+  "author": "Haldun Anil, modified by MareoRaft",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/haldunanil/create-reactjs-component.git"
+    "url": "https://github.com/MareoRaft/create-reactjs-component.git"
   },
-  "homepage": "https://github.com/haldunanil/create-reactjs-component",
-  "bugs": "https://github.com/haldunanil/create-reactjs-component/issues",
+  "homepage": "https://github.com/MareoRaft/create-reactjs-component",
+  "bugs": "https://github.com/MareoRaft/create-reactjs-component/issues",
   "tags": [
     "react",
     "reactjs",
