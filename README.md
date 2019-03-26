@@ -1,4 +1,4 @@
-# mareoraft-create-reactjs-component
+# mareoraft-create-react-component
 
 WARNING: THIS IS AN EXPERIMENTAL FORK OF https://github.com/haldunanil/create-reactjs-component AND YOU PROBABLY WANT THAT ONE INSTEAD.
 
@@ -15,13 +15,13 @@ Note: the scripts are bash scripts and may not run on Windows machines. If that 
 ## Install
 
 ```sh
-npm install -g mareoraft-create-reactjs-component
+npm install -g mareoraft-create-react-component
 ```
 
 ## Example
 
 ```sh
-create-reactjs-component Test
+create-react-component Test
 ```
 
 will create
