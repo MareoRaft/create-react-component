@@ -1,6 +1,6 @@
 {
-  "name": "mareoraft-create-reactjs-component",
-  "version": "1.0.7",
+  "name": "mareoraft-create-react-component",
+  "version": "1.0.8",
   "description": "A shortcut to create React.js component directories",
   "scripts": {
     "create-index-js": "bash create-index.js.sh",
@@ -9,16 +9,16 @@
     "build": "bash build.sh"
   },
   "bin": {
-    "create-reactjs-component": "./build.sh"
+    "create-react-component": "./build.sh"
   },
   "author": "Haldun Anil, modified by MareoRaft",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MareoRaft/create-reactjs-component.git"
+    "url": "https://github.com/MareoRaft/create-react-component.git"
   },
-  "homepage": "https://github.com/MareoRaft/create-reactjs-component",
-  "bugs": "https://github.com/MareoRaft/create-reactjs-component/issues",
+  "homepage": "https://github.com/MareoRaft/create-react-component",
+  "bugs": "https://github.com/MareoRaft/create-react-component/issues",
   "tags": [
     "react",
     "reactjs",
