@@ -12,8 +12,8 @@ class $1 extends React.Component {
 	}
 }
 
-const $1PropTypes = {
+const propTypes = {
 };
 
-$1.propTypes = $1PropTypes;
+$1.propTypes = propTypes;
 export default $1;" > src/components/$1/$1.js
