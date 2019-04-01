@@ -16,5 +16,4 @@ const $1PropTypes = {
 };
 
 $1.propTypes = $1PropTypes;
-
 export default $1;" > src/components/$1/$1.js
