@@ -21,7 +21,11 @@ npm install -g mareoraft-create-react-component
 ## Example
 
 ```sh
-create-react-component Test
+create-react-component MyComponentName
+```
+or to specify a specific type of component
+```sh
+create-react-component --template container MyComponentName
 ```
 
 will create
