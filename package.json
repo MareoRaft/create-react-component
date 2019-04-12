@@ -1,6 +1,6 @@
 {
   "name": "mareoraft-create-react-component",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A shortcut to create React.js component directories",
   "scripts": {
     "create-index-js": "bash create-index.js.sh",
