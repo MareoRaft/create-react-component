@@ -6,7 +6,11 @@ import styles from './$1.module.scss';
 class $1 extends React.Component {
 	render() {
 		return (
-			<div>
+			<div
+				data-test-id='$1'
+				className={styles.$1}
+			>
+				
 			</div>
 		);
 	}
