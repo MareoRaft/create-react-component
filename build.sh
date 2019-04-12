@@ -106,7 +106,7 @@ run() {
 # MAIN script starts here
 
 # default args
-template='presentational'
+template='default-template'
 component='DefaultComponentName'
 
 while test $# -gt 0; do
