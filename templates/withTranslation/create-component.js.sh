@@ -18,8 +18,7 @@ class $1 extends React.Component {
 	}
 }
 
-const propTypes = {
+$1.propTypes = {
 };
 
-$1.propTypes = propTypes;
 export default withTranslation()($1);" > src/components/$1/$1.js
