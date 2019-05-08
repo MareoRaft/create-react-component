@@ -66,9 +66,6 @@ makeComponent() {
 		# create $COMPONENT.test.js
 		sh $REPO_DIR/templates/$TEMPLATE/create-component.test.js.sh $COMPONENT
 
-		# create $COMPONENT.test.js
-		sh $REPO_DIR/templates/$TEMPLATE/create-readme.md.sh $COMPONENT
-
 		# Inform user that everything was created
 		printf "$COMPONENT component was created. Looks like:\n"
 		printf "
