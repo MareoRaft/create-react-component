@@ -1,5 +1,6 @@
 echo "import React from 'react';
 import PropTypes from 'prop-types';
+import {compose} from 'redux';
 import {connect} from 'react-redux';
 import {withTranslation} from 'react-i18next';
 
@@ -35,4 +36,8 @@ const mapDispatchToProps = (dispatch) => {
 	};
 };
 
-export default withTranslation()(connect(mapStateToProps, mapDispatchToProps)($1));" > src/components/$1/$1.js
+export default compose(
+  connect(mapStateToProps, mapDispatchToProps),
+  withTranslation(),
+)($1);
+" > src/components/$1/$1.js
