@@ -6,7 +6,6 @@ import styles from './$1.module.scss';
 
 class $1 extends React.Component {
   render() {
-    const {t} = this.props;
     return (
       <div
         data-test-id='$1'
