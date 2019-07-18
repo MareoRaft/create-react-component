@@ -7,33 +7,33 @@ import {withTranslation} from 'react-i18next';
 import styles from './$1.module.scss';
 
 class $1 extends React.Component {
-	render() {
-		const {t} = this.props;
-		return (
-			<div
-				data-test-id='$1'
-				className={styles.$1}
-			>
-				
-			</div>
-		);
-	}
+  render() {
+    const {t} = this.props;
+    return (
+      <div
+        data-test-id='$1'
+        className={styles.$1}
+      >
+
+      </div>
+    );
+  }
 }
 
 $1.propTypes = {
 };
 
 const mapStateToProps = (state) => {
-	return {
-		// prop: state.path.to.value,
-	};
+  return {
+    // prop: state.path.to.value,
+  };
 };
 
 const mapDispatchToProps = (dispatch) => {
-	return {
-		// prop: () => dispatch(action),
-		onChangeObjectClass: (new_class) => dispatch(objectClassChangeHandler(new_class)),
-	};
+  return {
+    // prop: () => dispatch(action),
+    onChangeObjectClass: (new_class) => dispatch(objectClassChangeHandler(new_class)),
+  };
 };
 
 export default compose(
