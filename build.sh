@@ -60,8 +60,11 @@ makeComponent() {
 		# create $COMPONENT.js
 		sh $REPO_DIR/templates/$TEMPLATE/create-component.js.sh $COMPONENT
 
-		# create $COMPONENT.scss
+		# create $COMPONENT.scss (if it exists)
 		sh $REPO_DIR/templates/$TEMPLATE/create-component.scss.sh $COMPONENT
+
+		# create styles.js (if it exists)
+		sh $REPO_DIR/templates/$TEMPLATE/create-styles.js.sh $COMPONENT
 
 		# create $COMPONENT.test.js
 		sh $REPO_DIR/templates/$TEMPLATE/create-component.test.js.sh $COMPONENT
