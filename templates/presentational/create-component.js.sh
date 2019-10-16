@@ -1,7 +1,8 @@
 echo "import React from 'react';
 import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
 
-import styles from './$1.module.scss';
+import themeToStyles from './styles.js';
 
 class $1 extends React.Component {
   render() {
@@ -19,4 +20,4 @@ class $1 extends React.Component {
 $1.propTypes = {
 };
 
-export default $1;" > src/components/$1/$1.js
+export default withStyles(themeToStyles)($1);" > src/components/$1/$1.js
