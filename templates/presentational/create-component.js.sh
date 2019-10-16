@@ -9,7 +9,6 @@ class $1 extends React.Component {
     return (
       <div
         data-test-id='$1'
-        className={styles.$1}
       >
 
       </div>
